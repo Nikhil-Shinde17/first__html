@@ -1,0 +1,13 @@
+/* external styling sheet */
+
+/* selector */
+/* element selector */
+
+body{
+   background-color: gray;
+}
+
+/* class selector  -> use for common styling*/
+.heading{
+    color: white;
+}

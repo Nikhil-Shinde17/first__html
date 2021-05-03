@@ -1,43 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--- SEO -> Search Engine Optimization-->
+
 <head>
-    <!--- SEO -> Search Engine Optimization-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- internal styling -->
+    <!-- <style>
+        body{
+            background-color: lightblue;
+        }
+    </style> -->
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- heading -> ctrl+/ -->
-    <h1>I am a heading</h1>
-    <h2>I am a heading</h2>
-    <h3>I am a heading</h3>
-    <h4>I am a heading</h4>
-    <h5>I am a heading</h5> 
-    <h6>I am a heading</h6>
+    <!-- h1+h2+h3+h4+h5+h6 -->
+    <!-- block level element -> they take full width and next element will come in new line -->
+    <h1 class = "heading">I am a heading</h1>
+    <h2 class = "heading">I am a heading</h2>
+    <h3 class = "heading">I am a heading</h3>
+    <h4 class = "heading">I am a heading</h4>
+    <h5 class = "heading">I am a heading</h5> 
+    <h6 class = "heading">I am a heading</h6>
     
      <!-- paragraph tag -->
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, commodi quos.</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Totam molestias 
+        eveniet iure sequi a ducimus maiores</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Totam molestias 
+       eveniet iure sequi a ducimus maiores</p>
+       <!-- inline styling -->
+    <p>Lorem, ipsum dolor sit amet <span style="color: red;">consectetur</span>  adipisicing elit.Totam molestias 
+       eveniet iure sequi a ducimus maiores</p>
 
+    
     <!-- anchor tag -->
+    <!-- inline element -> they only take required space -->
     <a href="https:www.google.com">Go to google</a>
     <a href="https://www.facebook.com">Go to facebook</a>
-    
+
     <!-- image tag -->
     <!-- img+enter -> short key -->
-       <img src="../img/lap.png" alt="Dragon glass">
+    <!-- ../ -> one level upper -->
+    <img src="https://picsum.photos/200/300" alt="Image">
+    <img src="../img/css.png" alt="CSS">
        
        <!-- unordered list -> 4 list items -->
        <!-- ul>li*4 -> shortcut key-->
-       <ul>
-           <li>I am a list item</li>
-           <li>I am a list item</li>
-           <li>I am a list item</li>
-           <li>I am a list item</li>
-       </ul>
-        
-
-       <!-- ordered list -> 3 list items -->
-       <ol>
-           <li>I am number 1</li>
-           <li>I am number 2</li>
-           <li>I am number 3</li>
-       </ol>
+       <!-- div tag -->
+    <div>
+        <ul>
+            <li>I am a list item</li>
+            <li>I am a list item</li>
+            <li>I am a list item</li>
+            <li>I am a list item</li>
+        </ul>
+         
+ 
+        <!-- ordered list -> 3 list items -->
+        <ol>
+            <li>I am number 1</li>
+            <li>I am number 2</li>
+            <li>I am number 3</li>
+        </ol>
+    </div>
+       
 </body>
 </html>

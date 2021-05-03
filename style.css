@@ -1,0 +1,47 @@
+/* basic setup */
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 0;
+   /* padding: top-bottom left-right */
+   padding: 0 3rem;
+}
+
+li{
+     list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*    */
+
+h1{
+    font-weight: 400;
+}
+header{
+    /* apply the flex property on parent tag */
+    display: flex;
+    /* vertically allign */
+    align-items: center;
+
+    /* horizontally align */
+    justify-content: space-between;
+}
+.description{
+    display: flex;
+}
+
+.nav_list{
+    display: flex;
+}
+
+/* showcase class image children */
+.showcase>img{
+  /* jitni appki screen hain na uski 90% height */
+  height: 90vh;
+
+
+}
